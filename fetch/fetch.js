@@ -2,7 +2,7 @@ let express = require('express')
 let mongodb = require('mongodb')
 let mcl = mongodb.MongoClient
 let router = express.Router()
-let url = require('./url')
+let url = require('../url')
 
 router.get("/", (req, res) => {
     //connect to mongodb
