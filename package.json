@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongodb": "4.11",
+    "url": "^0.11.3"
+  },
+  "name": "mongocrud",
+  "version": "1.0.0",
+  "description": "CRUD using MongoDb",
+  "main": "server.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Manoj Pennada",
+  "license": "ISC"
+}
